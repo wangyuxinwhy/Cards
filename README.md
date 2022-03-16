@@ -1,5 +1,5 @@
 # Cards
-![test](https://github.com/github/wangyuxinwhy/Cards/workflows/build_test.yml/badge.svg)
+![test](https://github.com/wangyuxinwhy/Cards/actions/workflows/build_test.yaml/badge.svg)
 
 Toy Project...
 
