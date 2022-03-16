@@ -8,7 +8,7 @@ help:
 
 .PHONY: style
 style:
-	flake8 .
+	flake8 --max-line-length 120 --ignore=F401 .
 	black .
 	isort --profile black .
 
@@ -26,4 +26,4 @@ clean:
 
 .PHONY: test
 test:
-	pytest
+	pytest --cov cards .

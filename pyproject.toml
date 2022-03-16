@@ -6,6 +6,7 @@ authors = ["wangyuxin <wangyuxin@mokahr.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+tinydb = "^4.7.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
@@ -14,6 +15,7 @@ flake8 = "^4.0.1"
 isort = "^5.10.1"
 pre-commit = "^2.17.0"
 coverage = "^6.3.2"
+pytest-cov = "^3.0.0"
 
 [tool.isort]
 profile = "black"
