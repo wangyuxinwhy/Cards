@@ -36,7 +36,6 @@ jobs:
       - name: Generate coverage report
         run: |
           coverage run --source=cards -m pytest tests
-          coverage combine
           coverage xml -i
       - name: Upload report to Codecov
         uses: codecov/codecov-action@v1
