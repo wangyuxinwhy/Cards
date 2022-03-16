@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "cards"
+version = "0.1.0"
+description = ""
+authors = ["wangyuxin <wangyuxin@mokahr.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.1.0"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+pre-commit = "^2.17.0"
+coverage = "^6.3.2"
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
