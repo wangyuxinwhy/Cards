@@ -22,7 +22,8 @@ jobs:
           python-version: ${{ matrix.python-verison }}
       - name: Install dependencies
         run: |
-          python3 -m pip install --upgrade pip && python3 -m pip install coverage flake8 pytest
+          python3 -m pip install --upgrade pip
+          python3 -m pip install coverage flake8 pytest
           python3 -m pip install .
       - name: Lint with flake8
         run: |
